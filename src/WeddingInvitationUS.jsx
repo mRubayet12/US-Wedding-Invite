@@ -59,16 +59,16 @@ export default function WeddingInvitationRustic() {
 		const link = document.createElement("link");
 		link.rel = "stylesheet";
 		link.href =
-			"https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;500&display=swap";
+			"https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cinzel:wght@400;500;600&display=swap";
 		document.head.appendChild(link);
 		return () => document.head.removeChild(link);
 	}, []);
 
 	const cinzel = { fontFamily: "'Cinzel', serif" };
 	const vibes = { fontFamily: "'Great Vibes', cursive" };
-	const brown = "#4A2910";
-	const mid = "#6B4226";
-	const light = "#8B5E3C";
+	const brown = "#2F1709";
+	const mid = "#4A2910";
+	const light = "#5C351B";
 
 	return (
 		<div
@@ -100,8 +100,9 @@ export default function WeddingInvitationRustic() {
 					{...up(0.2)}
 					style={{
 						...cinzel,
-						fontSize: 10,
-						letterSpacing: 3,
+						fontSize: 11,
+						fontWeight: 600,
+						letterSpacing: 2.4,
 						color: mid,
 						textTransform: "uppercase",
 						marginBottom: 16,
@@ -115,11 +116,12 @@ export default function WeddingInvitationRustic() {
 					{...up(0.3)}
 					style={{
 						...vibes,
-						fontSize: "clamp(28px,7.5vw,38px)",
+						fontSize: "clamp(34px,8.8vw,44px)",
 						color: brown,
 						lineHeight: 1.1,
 						marginBottom: 2,
 						whiteSpace: "nowrap",
+						textShadow: "0 0 0.35px currentColor",
 					}}
 				>
 					Md Reazul Islam
@@ -129,9 +131,10 @@ export default function WeddingInvitationRustic() {
 					{...fade(0.38)}
 					style={{
 						...cinzel,
-						fontSize: 10,
-						letterSpacing: 4,
-						color: light,
+						fontSize: 11,
+						fontWeight: 600,
+						letterSpacing: 3.2,
+						color: mid,
 						textTransform: "uppercase",
 						margin: "8px 0",
 					}}
@@ -144,10 +147,11 @@ export default function WeddingInvitationRustic() {
 					{...up(0.45)}
 					style={{
 						...vibes,
-						fontSize: "clamp(28px,7.5vw,38px)",
+						fontSize: "clamp(34px,8.8vw,44px)",
 						color: brown,
 						lineHeight: 1.1,
 						marginBottom: 20,
+						textShadow: "0 0 0.35px currentColor",
 					}}
 				>
 					Fahima Hossain
@@ -158,10 +162,11 @@ export default function WeddingInvitationRustic() {
 					{...up(0.6)}
 					style={{
 						...cinzel,
-						fontSize: 9.5,
-						letterSpacing: 1.5,
+						fontSize: 10.5,
+						fontWeight: 600,
+						letterSpacing: 1.2,
 						color: mid,
-						lineHeight: 1.9,
+						lineHeight: 1.8,
 						textTransform: "uppercase",
 						width: "100%",
 					}}
@@ -197,8 +202,9 @@ export default function WeddingInvitationRustic() {
 						<div
 							style={{
 								...cinzel,
-								fontSize: 9,
-								letterSpacing: 2,
+								fontSize: 10,
+								fontWeight: 600,
+								letterSpacing: 1.6,
 								color: mid,
 								textTransform: "uppercase",
 							}}
@@ -212,9 +218,10 @@ export default function WeddingInvitationRustic() {
 						<div
 							style={{
 								...cinzel,
-								fontSize: 9,
-								letterSpacing: 3,
-								color: light,
+								fontSize: 10,
+								fontWeight: 600,
+								letterSpacing: 2.4,
+								color: mid,
 								textTransform: "uppercase",
 								marginBottom: 2,
 							}}
@@ -225,10 +232,10 @@ export default function WeddingInvitationRustic() {
 							style={{
 								fontFamily: "'Cormorant Garamond', serif",
 								fontSize: "clamp(52px, 14vw, 68px)",
-								fontWeight: 400,
+								fontWeight: 600,
 								color: brown,
 								lineHeight: 0.95,
-								letterSpacing: -2,
+								letterSpacing: 0,
 							}}
 						>
 							29
@@ -236,9 +243,10 @@ export default function WeddingInvitationRustic() {
 						<div
 							style={{
 								...cinzel,
-								fontSize: 9,
-								letterSpacing: 3,
-								color: light,
+								fontSize: 10,
+								fontWeight: 600,
+								letterSpacing: 2.4,
+								color: mid,
 								textTransform: "uppercase",
 								marginTop: 4,
 							}}
@@ -261,8 +269,9 @@ export default function WeddingInvitationRustic() {
 						<div
 							style={{
 								...cinzel,
-								fontSize: 9,
-								letterSpacing: 2,
+								fontSize: 10,
+								fontWeight: 600,
+								letterSpacing: 1.6,
 								color: mid,
 								textTransform: "uppercase",
 							}}
@@ -280,12 +289,12 @@ export default function WeddingInvitationRustic() {
 					<div
 						style={{
 							...cinzel,
-							fontSize: 8,
-							letterSpacing: 3.5,
-							color: light,
+							fontSize: 9,
+							fontWeight: 600,
+							letterSpacing: 2.8,
+							color: mid,
 							textTransform: "uppercase",
 							marginBottom: 6,
-							opacity: 0.8,
 						}}
 					>
 						Venue
@@ -293,12 +302,12 @@ export default function WeddingInvitationRustic() {
 					<div
 						style={{
 							...cinzel,
-							fontSize: 11,
-							letterSpacing: 2,
+							fontSize: 12.5,
+							letterSpacing: 1.5,
 							color: brown,
 							textTransform: "uppercase",
 							marginBottom: 6,
-							fontWeight: 500,
+							fontWeight: 600,
 						}}
 					>
 						Gulshan Shooting Club
@@ -306,16 +315,17 @@ export default function WeddingInvitationRustic() {
 					<div
 						style={{
 							...cinzel,
-							fontSize: 9.5,
-							letterSpacing: 1.5,
+							fontSize: 10.5,
+							fontWeight: 600,
+							letterSpacing: 1.1,
 							color: mid,
-							lineHeight: 2,
+							lineHeight: 1.85,
 							textTransform: "uppercase",
 						}}
 					>
 						Gulshan Avenue, Beside Police Plaza
 						<br />
-						Bangladesh, Dhaka-1212
+						Dhaka-1212, Bangladesh
 					</div>
 				</motion.div>
 
@@ -325,7 +335,31 @@ export default function WeddingInvitationRustic() {
 				<motion.div
 					{...up(1.1)}
 					style={{ textAlign: "center", paddingBottom: 8 }}
-				></motion.div>
+				>
+					<a
+						href="https://forms.gle/9oL838BkUx7S4c6U9"
+						target="_blank"
+						rel="noreferrer"
+						style={{
+							...cinzel,
+							display: "inline-flex",
+							alignItems: "center",
+							justifyContent: "center",
+							minHeight: 36,
+							padding: "0 22px",
+							border: "1px solid #4A2910",
+							color: brown,
+							background: "rgba(255, 248, 236, 0.42)",
+							textDecoration: "none",
+							textTransform: "uppercase",
+							fontSize: 10.5,
+							fontWeight: 600,
+							letterSpacing: 1.8,
+						}}
+					>
+						RSVP
+					</a>
+				</motion.div>
 			</div>
 		</div>
 	);
